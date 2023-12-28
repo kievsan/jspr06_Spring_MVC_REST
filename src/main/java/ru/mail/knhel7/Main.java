@@ -10,7 +10,7 @@ import java.nio.file.Files;
 
 public class Main {
 
-    public static final int PORT = 8080;
+    public static final int PORT = 9999;
 
     public static void main(String[] args) throws IOException, LifecycleException {
         final var tomcat = new Tomcat();
