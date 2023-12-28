@@ -46,7 +46,7 @@ Content-Type: application/json
 ###
 
 # добавить пост
-POST {{baseUrl}}/products
+POST {{baseUrl}}/posts
 Content-Type: application/json
 
 {
