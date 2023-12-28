@@ -21,9 +21,9 @@ public class PostService {
   }
 
   public Post getById(long id) {
-    return repository.getById(id).orElse(new Post(
-            0, "The post id=" + id + " was not found"));
-//    return repository.getById(id).orElseThrow(NotFoundPostException::new);
+//    return repository.getById(id).orElse(new Post(
+//            0, "The post id=" + id + " was not found"));
+    return repository.getById(id).orElseThrow(NotFoundPostException::new);
   }
 
   public Post save(Post post) {
